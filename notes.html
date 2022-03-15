@@ -1,0 +1,71 @@
+<!--Notes-->
+<!doctype html> <!--declares docment type-->
+
+<html>  <!-- starts html document -->
+<head>  <!-- contains information about web pages properties and links to external related files-->
+
+<!-- Comments section to show information about page
+    Title
+    Author: 
+    Date:   
+    Filename: notes.html
+-->
+
+   <title>Web Title</title> 		<!-- defines the docs title that is shown in a browser's title bar or a pages tab-->
+   <meta charset="utf-8" /> 		<!-- tells browser to use utf-8 character encoding when translating from machine 
+										 code into human-readable text and vice versa to be displayed in the browser-->
+										 
+   <meta name="keywords" content="math, Euler, pi, geometry">   <!-- adds keywords that web searches can use to find page-->
+   
+   
+   <link href="notes_base.css" rel="stylesheet" />  			<!-- connets to stylesheet -->
+   <link href="notes_layout.css" rel="stylesheet" />				
+
+</head>			<!-- ends head document-->
+
+<body>  		<!-- defines the documents body (all the contents of an HTML document)-->
+   <!-- represents intro content, usually intro or navigational aids -->
+   <header id="pageheader"> <!-- pageheader id is used to identify for css-->
+     <img src="notes_logo.png" alt="Notes Image" /> <!-- adds image with alt text Notes Image-->
+   </header>
+   
+   <!-- can have nav here too-->
+   
+   <article> 	<!-- speficies independent, self-contained content-->
+	    <h1>Notes Headline</h1> 
+		<p>Paragraph of Notes
+		<strong>Paragraph of Words</strong> <em>Can use different emphasis styles.</em></p>
+
+		<p><cite>Citing is easy</cite></p>
+		<blockquote> Used to represent content that is quoted from another source. Can include paragraphs.</blockquote>
+		<p> You can even use special characters. <var>e</var> and <var>&pi;</var></p>
+   </article>
+   
+   
+   <!-- portion of a doc thats content iso only indirectly related to the doc's main content (sidebar)-->
+   <aside id="notes_sidebar"> 
+		<h1>SideBar</h1>
+		<h2>You can show math and other headings too</h2>
+		<code> cos(<var>x</var>) + <var>i</var> sin(<var>x</var>) = <var>e</var><var><sup>xi</sup></var></code>	
+   </aside>
+   
+   
+   <nav> <!-- section of page to provide navigation links, current or to other docs(menus, tables of contents, indexes-->
+		<h1>Navigation Links</h1>
+
+		<ul> <!-- unordered list
+			<li><a href="http://en.wikipedia.org/wiki/Leonhard_Euler">Euler at Wikipedia</a></li>
+			<li><a href="http://eulerarchive.maa.org/">The Euler Archive</a></li>
+			<li><a href="http://www.biography.com/people/leonhard-euler-21342391">Euler at Biography.com</a></li>
+			<li><a href="http://www.famousscientists.org/leonhard-euler">Euler at Famous Scientists</a></li>
+		</ul>
+
+   </nav>
+   
+   <footer> <!-- a footer for its nearest sectining content or sectioning root element, typically contains:
+				 informtaion about the author of the section, copyright data, or links to related documents -->
+      Notes: HTML
+   </footer>
+</body>
+
+</html>
