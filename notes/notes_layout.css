@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/*
+	Title
+   
+   Author: 
+   Date:   
+   
+   Filename: notes_layout.css
+
+*/
+
+/*STYLE RULES NOTES*/
+	/* DISPLAY SYLE RULE
+	 element {display: style;}
+	 styles: block, table, inline, inline-block, run-in, inherit, list-item, none
+	 */
+ 
+/* Article Styles ****************************************************/
+
+
+
+
+/* First Line and Drop Cap Styles ************************************/
+
+
+
+ 
+
+/* Aside Styles ******************************************************/
+
+	/*Display Syle Rules*/
+		img{display: none;} 				/* doesnt display image*/
+		blockquote {display: list-item;} 	/*displays as list with markers*/
+
+
+
+/* Map Styles *********************************************************/
+
+
+
+
+/* Interactive Map Styles *********************************************/
+
+
+
+
+/* Map Information Styles *********************************************/
+
+
+
