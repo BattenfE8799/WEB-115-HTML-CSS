@@ -16,7 +16,9 @@
 
 /* Article Styles */
 /*(4)style rule to float the article element on the left margin and set its width to 384 pixels*/
-
+article {
+	width: 384px; 
+	float: left;}
 
 
 /* First Line and Drop Cap Styles */
@@ -24,17 +26,31 @@
 /*(5) first line displayed in small capital letters. style rule for first paragraph and first line of that paragraph (aricle element)
    set font size to 1.25em and font variant to small-caps
 	use first-of-type pseudo-class for paragraph and first-line pseudo-element foor the first line of tht paragraph*/
-
+article > p:first-of-type::first-line {
+	font-size: 1.25em;
+	font-variant: small-caps;}
+	
 /*(6) first letter of the first line of artlce styles to be a drop cap. 
 style rule for articles first paragraph and first letter that applies:
 a) sets the size of the first letter to 4em in a serif font and floats it on the left
 b) sets the line height to 0.8em
 c) sets the right and bottom margins to 5 pixels
 (hint use first-letter pseudo-element for the first letter of paragraph)*/ 
+article > p:first-of-type::first-letter {
+	font-size: 4em;
+	font-style: serif;
+	float: left;
+	line-height: 0.8em;
+margin: 5px;}
+	
+
+
 
  
 
 /* Aside Styles */
+
+/*(7) create style rule that sets width of the aside element to 768px and floats it on the left margin*/
 
 
 
