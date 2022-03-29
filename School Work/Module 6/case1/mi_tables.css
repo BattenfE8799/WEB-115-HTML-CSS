@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Case Problem 1
+
+   Tables Style Sheet
+   Author: Elizabeth Battenfield
+   Date:   3/29/2022
+
+   Filename:         mi_tables.css
+
+*/
+
+/* Table Styles */
+	/*(9) sets background color to a linear gradient that goes to the bottom of table baground starting from rgb(190, 215, 255)
+	 and ending in black, (b) adds a 5px solid gray border*/
+
+table.pricing {
+	background: linear-gradient(to bottom, rgb(190,215,255), black);
+	border: 5px solid grey;
+	font-size: 0.5em;
+	width: 100%;}
+
+	/*(10)for every th and td element in the table, addds a 3px solid gray border, 
+	sets line height to 1.4em, sets the padding space to 8 pixels */
+	
+table.pricing th, table.pricing td {
+border: 3px solid gray;
+line-height: 1.4em;
+padding: 8px;}
+
+	
+/* Column Styles */
+
+
+
+/* Table Header Styles */
+table.pricing th {
+	color: white;
+	font-size: 0.9em;
+align: top;}
+
+
+
+
+
+
+
+
+
+
