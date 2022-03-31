@@ -31,16 +31,37 @@ border: 3px solid gray;
 line-height: 1.4em;
 padding: 8px;}
 
+table.pricing th {
+	background: black;
+	color: rgb(130,210,255);
+	font-weight: normal;}
+	
+table.pricing td {
+	color: white;
+	font-size: 0.9em;
+	align: top;}
 	
 /* Column Styles */
-
+/*(13 and 14)*/
+col#firstCol {width: 24%;}
+col.dataCols {width: 19%;}
 
 
 /* Table Header Styles */
-table.pricing th {
-	color: white;
-	font-size: 0.9em;
-align: top;}
+
+/*(15)*/
+thead tr {
+	height: 60px;
+}
+/*16*/
+thead tr:first-of-type th:first-of-type {
+	font-size: 2em;
+}
+/*17*/
+thead tr:first-of-type th:not(:first-of-type) {
+	background: transparent;
+	color: black;
+}
 
 
 
