@@ -120,6 +120,6 @@ div#mapInfo {
 	display: hidden;
 }
 
-a.battleMarkers:hover + div.mapInfo {
+a.battleMarkers::hover + div.mapInfo {
 	display: block;
 }
