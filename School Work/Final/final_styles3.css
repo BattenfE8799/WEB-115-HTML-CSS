@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+
+/* HTML and Body styles */
+body {
+   background-color: black;
+   box-shadow: rgb(51, 51, 51) 10px 0px 40px,  rgb(51, 51, 51) -10px 0px 40px;
+   border-left: 1px solid rgb(153, 0, 153);
+   border-right: 1px solid rgb(153, 0, 153);
+   height: 100%;   
+   margin: 0px auto;
+   min-width: 320px;
+   max-width: 1200px;   
+   width: 100%;
+}
+
+
+/* Flex Layout */
+
+body {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: column nowrap;
+   flex-flow: column nowrap;
+}
+
+
+/* Header Styles */
+header {
+	color:rgb(153, 0, 153)
+}
+header h1 {
+   font-size: 2em;
+   padding: 5px 0px 5px 12px;
+}
+header ul li {
+   width: 80px; 
+   float: left; 
+   text-align: center;
+   border: 1px solid rgb(102, 102, 102);
+
+/* Navigation Styles */
+header nav ul li {
+	color: rgb(153, 0, 153)
+   font-size: 1em;   
+   padding: 0px 10px;
+   width:100%;
+   display: block;
+}
+
+
+
+/* Main Section styles */
+section.main {
+	font-color:white;
+}
+
+/* Right Section styles */
+
+
+/* Aside styles */
+
+
+/* Footer styles */ 
+
+
+/* Output Box Styles */
+
+
+/* ===============================
+   Mobile Styles: 0px to 640px 
+   ===============================
+*/
+
+
+
+
+/* =============================================
+   Tablet and Desktop Styles: greater than 640px
+   =============================================
+*/

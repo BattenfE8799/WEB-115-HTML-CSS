@@ -1,264 +1,126 @@
 @charset "utf-8";
 
 /*
-   New Perspectives on HTML and CSS
-   Tutorial 6
-   Tutorial Case
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 7
+   Case Problem 3
 
-   DLR General Style Sheet
-  
-   Filename:         dlr_styles.css
+   Filename: wm_styles.css
+
+   This file contains styles used in the wm_demo.html page
 
 */
 
 
-/* HTML and Body styles */
-
-html {
-   background: url(dlr_back.png), rgb(165, 146, 165);
-   font-family: Verdana, Geneva, sans-serif;
-   height: 100%;
-}
+/* Body Styles */
 
 body {
-   background-color: white;
-   box-shadow: rgb(51, 51, 51) 10px 0px 40px,  rgb(51, 51, 51) -10px 0px 40px;
-   border-left: 1px solid rgb(153, 0, 153);
-   border-right: 1px solid rgb(153, 0, 153);
-   height: 100%;   
-   margin: 0px auto;
-   min-width: 320px;
-   max-width: 1200px;   
-   width: 100%;
+   /*background: transparent url(wm_back.png) repeat-y;  */
+   font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;   
 }
 
-/* Flex Layout */
-
-body {
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-flow: column nowrap;
-   flex-flow: column nowrap;
-}
-
-header, footer {
-   -webkit-flex-shrink: 0;
-   flex-shrink: 0;
-}
-
-div#container {
-   -webkit-flex: 1 0 auto;
-   flex: 1 0 auto;
-}
-
-/* Header styles */
+/* Header Styles */
 
 header {
-   background-color: rgb(218, 210, 218);
-   border-bottom: 1px solid rgb(153, 0, 153);
-   color: white;
-
+   position: fixed; 
+   top: 0px; 
+   left: 0px;
 }
 
-header h1 {
-   background: linear-gradient(to right, rgb(153, 0, 153) 30%, black);
-   color: white;
-   font-size: 1.4em;
-   padding: 5px 0px 5px 12px;
+header ul {
+   position: fixed; 
+   left: 380px; 
+   top: 32px;
+   list-style-type: none;
 }
 
-header h1 em {
-   font-size: 0.7em;
+header ul li {
+   width: 80px; 
+   float: left; 
+   text-align: center;
+   border: 1px solid rgb(102, 102, 102);
 }
 
-/* Navigation list styles */
-
-header nav ul li {
-   background-color: rgb(218, 210, 218);
-   font-size: 0.8em;   
-   padding: 0px 10px;
+header ul li a {
+   display: block; 
+   text-decoration: none;
+   font-size: 12px;
+   background-color: white; 
+   padding: 2px 0px;
 }
 
-header nav ul li a {
-   color: red;
-   display: block;
-   width: 100%;
+header ul li a:hover {
+   color: white; 
+   background-color: rgb(102, 102, 102);
 }
 
-header nav ul li a:hover {
-   color: white;
-   background-color: rgb(153, 0, 153);
+/* Navigation Styhles */
+
+nav.vertical {
+   position: fixed; 
+   top: 80px; 
+   left: 10px;
+   list-style-type: none;
 }
 
-a#navicon {
-   display: none;
+nav.vertical a {
+   font-size: 14px; 
+   color: white; 
+   text-decoration: none;
 }
 
-/* Container Styles */
-
-div#container {
-   background: rgb(248, 248, 210);
-
+nav.vertical a:hover {
+   color: rgb(255, 226, 110);
 }
 
-
-/* Main Section styles */
-
-section#main {
-   padding: 10px 20px 0px 20px;
+li.newgroup {
+   margin-top: 15px;
 }
 
-section#main img {
-   display: block;
-   width: 50%;
+/* Section Styles */
+
+section.main {
+   position: fixed;
+   top: 90px;
+   left: 160px;
+   width: 30%;
+   padding-bottom: 40px;
+}
+section.right {
+   position: fixed;
+   top: 90px;
+   left: 160px;
+   width: 30%;
+   padding-bottom: 40px;
 }
 
-section#main h2 {
-   color: white;
-   background: linear-gradient(to right, rgb(153, 0, 153) 30%, black);
-   font-size: 1.1em;
+section h1 {
+   font-size: 2em;
+   font-weight: normal;
    letter-spacing: 5px;
-   padding: 5px 0px 5px 12px;
+   margin-bottom: 30px;
 }
 
-section#main p {
-   line-height: 1.4em;
-   margin: 15px;
+section h2 {
+   font-size: 1.5em;
+   font-weight: normal;
+   letter-spacing: 5px;
+   clear: both;
+   margin: 10px 0px;
 }
 
-/* Right Section styles */
-
-section#right {
-   padding: 0px 15px 0px 15px;
+section p {
+   margin: 5px;
 }
 
-/* Aside styles */
-aside {
-   border: 1px solid rgb(153, 0, 153);
-   border-radius: 20px;
-   box-shadow: inset rgb(131, 131, 131) 5px 5px 10px,  inset rgb(131, 131, 131) -5px -5px 10px,  rgb(51, 51, 51) -5px 5px 25px;
-   margin: 15px 0px;
+/* Output Box Styles */
+
+#output {
    width: 100%;
+   height: 150px;
+   border: 1px solid black;
+   overflow: auto;
+   margin-top: 10px;
+   clear: both;
 }
 
-aside#current {
-   background-color: rgb(218, 210, 218);
-}
-
-aside#current p {
-   border-left: 4px solid rgb(153,0,153);
-   font-size: 0.9em;
-}
-
-aside p:last-of-type {
-   margin-bottom: 25px;
-}
-
-aside h1 {
-   background-color: rgb(153,0,153);
-   border-radius: 10px;
-   color: white;
-   font-size: 0.9em;
-   text-align: center;
-   margin: 10px;
-}
-
-aside h2 {
-   color: black;
-   text-align: left;
-   font-size: 0.9em;
-   line-height: 0.95;
-   margin: 15px;
-}
-
-aside p {
-   border-left: 4px solid rgb(255,202,255);
-   font-size: 0.7em;
-   padding: 0px 0px 0px 5px;
-   margin: 10px 25px;
-}
-
-aside#future {
-   background-color: white;
-}
-
-/* Footer styles */   
-
-footer {
-   color: white;    
-   background: linear-gradient(to right, rgb(153, 0, 153) 30%, black);   
-   font-size: 0.65em;  
-   font-style: normal;
-   height: 30px;
-   line-height: 30px;   
-   text-align: center;
-  
-}
-
-/* ===============================
-   Mobile Styles: 0px to 640px 
-   ===============================
-*/
-@media only screen and (max-width: 640px) {
-
-   section#main {
-      width: 100%;
-   }
-   
-   section#right {
-      width: 100%;
-   }
-   
-   a#navicon {
-      display: block;
-   }
-   
-   header nav ul {
-      display: none;
-   }
-   
-   header nav ul li {
-      font-size: 1em;
-      line-height: 1.3em;
-      height: 1.3em;
-   }
-   
-   a#navicon:hover+ul, header nav ul:hover {
-      display: block;
-   }
-}
-
-/* =============================================
-   Tablet and Desktop Styles: greater than 640px
-   =============================================
-*/
-@media only screen and (min-width: 641px) {
-
-   section#main {
-      float: left;
-      width: 70%;
-   }
-   
-   aside#right {
-      float: right;
-      width: 30%;
-   }
-   aside#left {
-	   float:left;
-	   width: 30%;
-   }
-   
-   header nav ul {
-      display: -webkit-flex;
-      display: flex;
-      -webkit-flex-flow: row nowrap;
-      flex-flow: row nowrap;
-      -webkit-justify-content: center;
-      justify-content: center;
-   }
-   
-   header nav ul li {
-      -webkit-flex: 0 1 auto;
-      flex: 0 1 auto;
-   }
-}
