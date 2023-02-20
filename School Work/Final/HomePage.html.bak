@@ -24,7 +24,6 @@
    <header>
       <h1>Extreme Weather <em>Guide</em></h1>
       <nav>
-         <a id="navicon" href="#"><img src="dlr_navicon.png" alt="" /></a>
          <ul>
 			<li><a href="HomePage.html">Home</a></li>
             <li><a href="Tornado.html">Tornado</a></li>
@@ -38,26 +37,26 @@
    <div id="container">
    
       <section id="main"> 
-         <h2>Extreme Weather Form:</h2>
-         <p> Stories about extreme weather. </p>
+		<img src="weather.jpg" alt="weather" />
+         <h2>Extreme Weather Description</h2>
+         <p>Extreme Weathers are unexpected, unusual, severe, or unseasonal weather.
+			This can include Tornados,Blizzards, and Floods. There are ways to prepare for these events, though you may never be truly
+			prepared depending on the severity of the event. 
+			</p>
+	
+         
       </section>
-	  
       
+      <section id="right">
+         <aside id="moreInfo">
+            <h1>More information:</h1>
+            <h2>You can find more information at: <a href="https://www.weather.gov/safety/"> </h2>
+            <p>For each event, there are things you can do to prepare.</p>
+         </aside>
+      </section>
       
    </div>
-   <body>
-	<section id="form>
-		<form action="mailto:kenneth.kleiner.ftcc@gmail.com"
-		method="POST"
-		enctype="multipart/form-data"
-		name="comments"
-		Name:<br>
-		<input type="text" size="19" name="ContactName"><br><br>
-		Comments:<br> <textarea id="textbox" name="comments" rows ="6" cols="20" placeholder"Enter your comments or stories here:" autofocus tabindex="1" wrap="hard"></textarea>
-		<br><br> <input type="submit" value="Submit">
-		</form>
-	</section>
-   </body>
+   
    <footer>
       WEB-115-0001 Elizabeth Battenfield, Final
    </footer>

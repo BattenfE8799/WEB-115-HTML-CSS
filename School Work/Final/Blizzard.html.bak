@@ -38,26 +38,27 @@
    <div id="container">
    
       <section id="main"> 
-         <h2>Extreme Weather Form:</h2>
-         <p> Stories about extreme weather. </p>
+         <img src="blizzard.png" alt="blizzard" />
+         <h2>Blizzard:</h2>
+
+         
       </section>
-	  
       
+      <section id="right">
+         <aside id="prep">
+            <h1>Preparing for Events</h1>
+            <h2>Each type of event has its own preparation</h2>
+            <p>For each event, there are things you can do to prepare.</p>
+         </aside>
+         <aside id="What to Do:">
+            <h1>What to do incase the event happens:</h1>
+            <h2> Safety<br/>
+               each event has safty precaustions to take to stay safe during event. </h2>
+         </aside>
+      </section>
       
    </div>
-   <body>
-	<section id="form>
-		<form action="mailto:kenneth.kleiner.ftcc@gmail.com"
-		method="POST"
-		enctype="multipart/form-data"
-		name="comments"
-		Name:<br>
-		<input type="text" size="19" name="ContactName"><br><br>
-		Comments:<br> <textarea id="textbox" name="comments" rows ="6" cols="20" placeholder"Enter your comments or stories here:" autofocus tabindex="1" wrap="hard"></textarea>
-		<br><br> <input type="submit" value="Submit">
-		</form>
-	</section>
-   </body>
+   
    <footer>
       WEB-115-0001 Elizabeth Battenfield, Final
    </footer>

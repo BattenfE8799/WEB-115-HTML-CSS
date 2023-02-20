@@ -26,7 +26,7 @@
       <nav>
          <a id="navicon" href="#"><img src="dlr_navicon.png" alt="" /></a>
          <ul>
-			<li><a href="HomePage.html">Home</a></li>
+			<li><a href="HomePage.html">Home
             <li><a href="Tornado.html">Tornado</a></li>
             <li><a href="Flood.html">Flood</a></li>
             <li><a href="Blizzard.html">Blizzard</a></li>
@@ -38,22 +38,23 @@
    <div id="container">
    
       <section id="main"> 
-         <img src="blizzard.png" alt="blizzard" />
-<h2>Blizzard:</h2>
-         <p>A blizzard has howling winds, decreased visibility, and frigid temperatures. They can be very deadly. The worst one in history is the 1972 iran blizzard. 26 feet of snow, with 4,000 deaths. 
+         <img src="flood.png" alt="flood" />
+<h2>Flood:</h2>
+         <p>A tornado is a rotating column of air extending from the base of a cloud down to the ground. 
+		 Tornadoes are able to completely destroy structures, uproot trees, and hurl objects through
+		 the air like deadly missiles. It can do massive damage to structures, animals, and people. 
 			</p>
          
       </section>
       
       <section id="left">
          <aside id="prep">
-            <h1>Preparing for a Blizzard</h1>
+            <h1>Preparing for a Tornado</h1>
             <h2>Before:</h2>
             <p>Have a plan.</p>
 			<h2>What todo:</h2>
-            <p>Get extra supplies, food, and water </break>
-				Have warm winter clothes to wear and other supplies like blankets for warmth</break>
-				Have backup generator or similar for power backup. </p>
+            <p>Have a secure windowless room, on the lowest floor, to go to. If you don't have one, find one nearby that you can use for emergencies.
+			</br>An emergency shelter is great for this. </p>
 			<h2>Be Ready:</h2>
             <p>Watch the weather. Get weather alerts and notifications.
 			</p>
@@ -63,9 +64,8 @@
             <h2>
 			<ul>
 				<li>Get to a safety. </li>
-				<li>Keep Warm </li>
-				<li>Have supplies like food and water. </li>
-				<li>Have backup for power, if possible. </li>
+				<li>Knealing down and covering your head is the posture schools teach for tornados </li>
+				
 			</ul>	</h2>
          </aside>
       </section>

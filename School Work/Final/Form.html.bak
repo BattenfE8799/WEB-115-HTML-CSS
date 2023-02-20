@@ -53,7 +53,7 @@
 		name="comments"
 		Name:<br>
 		<input type="text" size="19" name="ContactName"><br><br>
-		Comments:<br> <textarea id="textbox" name="comments" rows ="6" cols="20" placeholder"Enter your comments or stories here:" autofocus tabindex="1" wrap="hard"></textarea>
+		Message:<br> <textarea id="textbox" name="comments" rows ="6" cols="20" placeholder"Enter your comments or stories here:" autofocus tabindex="1" wrap="hard"></textarea>
 		<br><br> <input type="submit" value="Submit">
 		</form>
 	</section>
